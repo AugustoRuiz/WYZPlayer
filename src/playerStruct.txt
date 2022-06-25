@@ -1,0 +1,13 @@
+; DATOS POR CANAL:
+
+; PUNTERO_CANAL                 EQU 0
+; PUNTERO_BUFFER_DEC            EQU 2
+; PUNTERO_PAUTA                 EQU 4
+; PUNTERO_INICIO_PAUTA          EQU 6
+; PUNTERO_POS_DEC               EQU 8
+; PUNTERO_INICIO_DEC_CANAL      EQU 10
+; REG_NOTA_CANAL                EQU 12
+; VOL_INST_CANAL                EQU 13
+; PUNTERO_LOOP_DEC_CANAL        EQU 14
+
+; CANAL_STRUCT_SIZE             EQU 16

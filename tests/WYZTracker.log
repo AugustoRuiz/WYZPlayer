@@ -1,0 +1,30 @@
+21/06/2022 9:29:11
+Sanford.Multimedia.Midi.InputDeviceException: The specified device handle is invalid.
+   en Sanford.Multimedia.Midi.InputDevice.Reset()
+   en Sanford.Multimedia.Midi.InputDevice.Dispose(Boolean disposing)
+   en WYZTracker.VirtualPiano.initMidiDevices()
+21/06/2022 9:29:11
+Sanford.Multimedia.Midi.InputDeviceException: The specified device handle is invalid.
+   en Sanford.Multimedia.Midi.InputDevice.StartRecording()
+   en WYZTracker.VirtualPiano.initMidiDevices()
+21/06/2022 9:31:20
+Sanford.Multimedia.Midi.InputDeviceException: The specified device handle is invalid.
+   en Sanford.Multimedia.Midi.InputDevice.Reset()
+   en Sanford.Multimedia.Midi.InputDevice.Dispose(Boolean disposing)
+   en WYZTracker.VirtualPiano.ReleaseDevices()
+   en WYZTracker.Program.Main(String[] args)
+21/06/2022 9:31:35
+Sanford.Multimedia.Midi.InputDeviceException: The specified device handle is invalid.
+   en Sanford.Multimedia.Midi.InputDevice.Reset()
+   en Sanford.Multimedia.Midi.InputDevice.Dispose(Boolean disposing)
+   en WYZTracker.VirtualPiano.initMidiDevices()
+21/06/2022 9:31:35
+Sanford.Multimedia.Midi.InputDeviceException: The specified device handle is invalid.
+   en Sanford.Multimedia.Midi.InputDevice.StartRecording()
+   en WYZTracker.VirtualPiano.initMidiDevices()
+21/06/2022 9:31:40
+Sanford.Multimedia.Midi.InputDeviceException: The specified device handle is invalid.
+   en Sanford.Multimedia.Midi.InputDevice.Reset()
+   en Sanford.Multimedia.Midi.InputDevice.Dispose(Boolean disposing)
+   en WYZTracker.VirtualPiano.ReleaseDevices()
+   en WYZTracker.Program.Main(String[] args)

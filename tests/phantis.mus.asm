@@ -1,0 +1,59 @@
+
+; Tabla de instrumentos
+TABLA_PAUTAS: DW PAUTA_0,PAUTA_1,PAUTA_2,PAUTA_3,PAUTA_4,PAUTA_5,PAUTA_6,PAUTA_7,PAUTA_8,PAUTA_9,PAUTA_10
+
+; Tabla de efectos
+TABLA_SONIDOS: DW SONIDO0,SONIDO1,SONIDO2,SONIDO3,SONIDO4,SONIDO5,SONIDO6,SONIDO7,SONIDO8
+
+;Pautas (instrumentos)
+;Instrumento 'Piano Bar 1'
+PAUTA_0:	DB	12,-1,12,1,12,0,8,1,8,0,8,0,6,0,129
+;Instrumento 'Piano bar 2 +1'
+PAUTA_1:	DB	73,0,9,0,9,0,5,0,5,0,4,0,4,0,0,0,129
+;Instrumento 'Piano Bar 1'
+PAUTA_2:	DB	12,-3,12,2,12,0,8,0,8,0,8,-1,6,0,129
+;Instrumento 'Flute +1'
+PAUTA_3:	DB	11,0,13,0,13,0,13,-1,13,0,12,0,12,0,12,0,12,0,12,0,12,0,12,-1,12,0,12,0,12,0,12,0,12,1,12,0,12,0,12,0,12,0,12,0,142
+;Instrumento 'Flute +1 eco'
+PAUTA_4:	DB	71,0,8,-1,9,1,8,-1,7,0,129
+;Instrumento 'fast slide up'
+PAUTA_5:	DB	7,3,11,-1,29,4,29,6,29,8,28,10,28,12,27,12,129
+;Instrumento 'slow slide down'
+PAUTA_6:	DB	12,0,28,-1,24,-2,129
+;Instrumento 'Bass '
+PAUTA_7:	DB	43,0,11,1,10,-1,9,0,7,-8,6,0,6,16,3,-2,3,0,129
+;Instrumento 'Med'
+PAUTA_8:	DB	8,-1,8,0,8,0,8,0,8,0,8,0,8,0,8,0,8,0,8,0,8,0,8,0,8,0,140
+;Instrumento 'Bass slide'
+PAUTA_9:	DB	42,0,10,29,129
+;Instrumento 'slow slide up'
+PAUTA_10:	DB	10,0,10,-6,129
+
+;Efectos
+;Efecto 'bass drum'
+SONIDO0:	DB	128,48,128,75,0,9,130,73,0,0,85,0,255
+;Efecto 'drum'
+SONIDO1:	DB	81,32,128,65,0,0,0,56,1,0,82,1,255
+;Efecto 'hithat'
+SONIDO2:	DB	0,5,1,255
+;Efecto 'bass drum vol 2'
+SONIDO3:	DB	232,56,0,208,116,0,255
+;Efecto 'drum 2'
+SONIDO4:	DB	0,39,0,0,5,1,0,3,1,255
+;Efecto 'hita hat 2'
+SONIDO5:	DB	0,8,2,0,8,2,255
+;Efecto 'Bongo 1'
+SONIDO6:	DB	192,23,0,0,35,0,64,34,0,255
+;Efecto 'Bongo 2'
+SONIDO7:	DB	64,39,0,129,35,0,192,50,0,255
+;Efecto 'LARGE DRUM'
+SONIDO8:	DB	0,48,128,0,3,9,0,0,136,0,12,1,0,0,136,0,15,1,0,10,8,0,9,8,0,8,8,0,8,8,0,8,8,0,7,8,0,7,8,0,6,8,0,6,8,0,6,8,0,6,8,0,5,8,0,5,8,255
+
+;Frecuencias para las notas
+DATOS_NOTAS: DW 0,0
+DW 1699,1603,1514,1428,1349,1272,1202,1134,1071,1010
+DW 954,900,849,802,757,714,674,637,601,567
+DW 535,506,477,450,425,401,378,358,337,318
+DW 300,283,267,252,238,225,213,201,189,179
+DW 169,159,150,142,134,126,119,112,106,100
+DW 94,89,84,79,75,71,67,64,60,57
